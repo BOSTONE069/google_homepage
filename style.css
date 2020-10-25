@@ -1,0 +1,129 @@
+.header-container{
+ 
+    display: grid;
+    grid-template-columns: 5fr auto auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    ". header header header header";
+    grid-gap: 10px;
+    margin-top: 25px;
+}
+
+.signin{
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 15px;
+    margin-top: -15px;
+}
+
+.header-box{
+    padding: 5px;
+}
+
+.logo-container{
+    text-align:  center;
+    vertical-align: bottom;
+    margin-top: 200px;
+
+}
+
+.search{
+    text-align: center;
+
+}
+.search2{
+    padding: 10px;
+    border: 1px solid grey;
+    float: center;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 15px;
+    max-width: 600px;
+    margin-top: 15px;
+
+}
+
+.buttons a{
+
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+	font-family: Arial;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+
+}
+
+.buttons {
+    text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 15px;
+  font-size: 12px;
+
+}
+
+.footer2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #E4E4E3;
+    padding-top: 15px;
+
+  }
+
+  .footer3 {
+    color: black;
+    text-decoration: none;
+	font-family: Arial;
+    font-size: 12px;
+    text-align: right;
+    
+
+  }
+
+  .footer4 {
+    color: black;
+    text-decoration: none;
+	font-family: Arial;
+    font-size: 16px;
+    text-align: left;
+
+  }
+
+  .footer4 a{
+    color: black;
+    text-decoration: none;
+	font-family: Arial;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  .footer3 a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+	font-family: Arial;
+    margin-right: 10px;
+    padding-right: 20px;
+  }
